@@ -9,7 +9,7 @@ You'll need [Vagrant](http://vagrantup.com) and [VirtualBox](http://virtualbox.o
 You should have a Windows 7 basebox ready and registered as "win7-box". 
 
 To create the basebox, you could easily use my [basebox-packer](https://github.com/DieterReuter/basebox-packer) Repo. 
-Here you'll need [Packer](http://packer.io)
+Here you'll need to install [Packer](http://packer.io) first.
 
 ```bash
 git clone https://github.com/DieterReuter/basebox-packer.git
