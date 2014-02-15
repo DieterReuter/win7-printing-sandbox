@@ -1,6 +1,6 @@
 # win7-printing-sandbox
 
-An instand Windows 7 VM for use as a printing sandbox.
+An instant Windows 7 VM for use as a printing sandbox.
 
 
 # Installation
@@ -21,6 +21,8 @@ Now register the basebox to your Vagrant environment:
 ```bash
 vagrant box add win7-box virtualbox/dieter-win7x64sp1.box
 ```
+
+(last build at 15.02.2014: run on a Windows 7 host with Packer 0.5.1, Vagrant 1.4.2, VirtualBox 4.3.6)
 
 
 ## How do use
