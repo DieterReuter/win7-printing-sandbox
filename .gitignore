@@ -2,5 +2,6 @@
 .vagrant
 *.iso
 *.box
-packer_cache
 virtualbox
+packer_cache
+output-virtualbox-iso
