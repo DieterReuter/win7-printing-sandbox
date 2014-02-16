@@ -35,6 +35,12 @@ cd win7-printing-sandbox
 vagrant up
 ```
 
+First, build the basebox with Packer.
+```bash
+cd template/dieter-win7x64sp1/
+packer build -only=virtualbox-iso template.json
+```
+
 Now you can use the fresh Windows 7 sandbox. Log in with the standard Vagrant user account, `username=vagrant` with `password=vagrant`.
 
 

@@ -1,0 +1,83 @@
+{
+  "builders": [
+    {
+      "disk_size": 40960,
+      "floppy_files": [
+        "floppy/Autounattend.xml",
+        "floppy/set-power-config.bat",
+        "floppy/install-cygwin-sshd.bat"
+      ],
+      "guest_os_type": "windows7-64",
+      "iso_checksum": "1d0d239a252cb53e466d39e752b17c28",
+      "iso_checksum_type": "md5",
+      "iso_url": "http://care.dlservice.microsoft.com/dl/download/evalx/win7/x64/EN/7600.16385.090713-1255_x64fre_enterprise_en-us_EVAL_Eval_Enterprise-GRMCENXEVAL_EN_DVD.iso",
+      "shutdown_command": "shutdown /s /t 10 /f /d p:4:1 /c \"Packer Shutdown\"",
+      "ssh_password": "vagrant",
+      "ssh_username": "vagrant",
+      "ssh_wait_timeout": "10000s",
+      "tools_upload_flavor": "windows",
+      "tools_upload_path": "/cygdrive/c/Users/vagrant/{{.Flavor}}.iso",
+      "type": "vmware-iso",
+      "vm_name": "dieter-win7x64sp1",
+      "vmx_data": {
+        "cpuid.coresPerSocket": "1",
+        "memsize": "768",
+        "numvcpus": "1"
+      }
+    },
+    {
+      "disk_size": 40960,
+      "floppy_files": [
+        "floppy/Autounattend.xml",
+        "floppy/oracle-cert.cer",
+        "floppy/set-power-config.bat",
+        "floppy/install-winrm.bat",
+        "floppy/install-cygwin-sshd.bat"
+      ],
+      "guest_additions_path": "/cygdrive/c/Users/vagrant/VBoxGuestAdditions.iso",
+      "guest_os_type": "Windows7_64",
+      "iso_checksum": "1d0d239a252cb53e466d39e752b17c28",
+      "iso_checksum_type": "md5",
+      "iso_url": "http://care.dlservice.microsoft.com/dl/download/evalx/win7/x64/EN/7600.16385.090713-1255_x64fre_enterprise_en-us_EVAL_Eval_Enterprise-GRMCENXEVAL_EN_DVD.iso",
+      "shutdown_command": "shutdown /s /t 10 /f /d p:4:1 /c \"Packer Shutdown\"",
+      "ssh_password": "vagrant",
+      "ssh_username": "vagrant",
+      "ssh_wait_timeout": "10000s",
+      "type": "virtualbox-iso",
+      "vboxmanage": [
+        [
+          "modifyvm",
+          "{{.Name}}",
+          "--memory",
+          "768"
+        ],
+        [
+          "modifyvm",
+          "{{.Name}}",
+          "--cpus",
+          "1"
+        ]
+      ],
+      "vm_name": "dieter-win7x64sp1"
+    }
+  ],
+  "post-processors": [
+    {
+      "keep_input_artifact": true,
+      "output": "../../{{.Provider}}/dieter-win7x64sp1.box",
+      "type": "vagrant"
+    }
+  ],
+  "provisioners": [
+    {
+      "scripts": [
+        "script/change-home-dirs.sh",
+        "script/postinstall.sh",
+        "script/install-vmtools.sh",
+        "script/install-chef.sh"
+      ],
+      "type": "shell"
+    }
+  ]
+}
+
