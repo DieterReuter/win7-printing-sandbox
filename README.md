@@ -8,7 +8,7 @@ An instant Windows 7 VM for use as a printing sandbox.
 You'll need [Vagrant](http://vagrantup.com) and [VirtualBox](http://virtualbox.org) to create and run the Windows 7 sandbox. For building the basebox you'll need [Packer](http://packer.io) too.  For more baseboxes you could visit my [basebox-packer](https://github.com/DieterReuter/basebox-packer) repo.
 
 
-### Step 1: building the basebox with `Packer`
+### Step 1: building the basebox with Packer
 
 So, let's start and clone into my repo and build with `./build-basebox.sh`(for Mac and Linux) or `build-basebox.bat`(for Windows).
 
@@ -18,7 +18,7 @@ cd win7-printing-sandbox
 ./build-basebox.sh
 ```
 
-### Step 2: register the basebox to `Vagrant`
+### Step 2: register the basebox to Vagrant
 
 You should have the Windows 7 basebox ready and registered as `win7-box` to your Vagrant environment.
 ```bash
