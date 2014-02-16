@@ -37,6 +37,7 @@ vagrant box list
 
 To get started, you only have to use `vagrant up`, and you're in the game.
 ```bash
+cd win7-printing-sandbox
 vagrant up
 ```
 
