@@ -63,7 +63,7 @@
   ],
   "post-processors": [
     {
-      "keep_input_artifact": true,
+      "keep_input_artifact": false,
       "output": "../../{{.Provider}}/dieter-win7x64sp1.box",
       "type": "vagrant"
     }
