@@ -30,10 +30,9 @@ You can verify what baseboxes are registered in your Vagrant environment with th
 vagrant box list
 ```
 
-[ Last successful builds:
-* 16.02.2014: build on a Mac OSX 10.9 host with Packer 0.5.1, Vagrant 1.4.3, VirtualBox 4.3.6
-* 15.02.2014: build on a Windows 7 host with Packer 0.5.1, Vagrant 1.4.2, VirtualBox 4.3.6
-]
+    Last successful builds:
+    * 16.02.2014: build on a Mac OSX 10.9 host with Packer 0.5.1, Vagrant 1.4.3, VirtualBox 4.3.6
+    * 15.02.2014: build on a Windows 7 host with Packer 0.5.1, Vagrant 1.4.2, VirtualBox 4.3.6
 
 ### Step 3: sorry, there's no 3
 
