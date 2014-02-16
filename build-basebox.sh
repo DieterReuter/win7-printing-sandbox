@@ -12,4 +12,4 @@ echo "...using PACKER_CACHE_DIR = $PACKER_CACHE_DIR"
 
 # now run the Packer build
 mkdir -p ${flavour}
-(cd ${basebox}; packer build -only=${flavour}-iso template.json)
+(cd ${basebox}; packer build -only=${flavour}-iso windows7x64sp1.json)
