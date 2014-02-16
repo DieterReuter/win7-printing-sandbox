@@ -2,3 +2,5 @@
 .vagrant
 *.iso
 *.box
+packer_cache
+virtualbox
