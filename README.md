@@ -50,7 +50,7 @@ vagrant up
 Now you can use the fresh Windows 7 sandbox. Log in with the standard Vagrant user account, `username=vagrant` with `password=vagrant`.
 
 Here is our finished Windows 7 sandbox running on a Mac OSX host:
-[Mac OSX 10.9.1!](./images/virtualbox-win7-sandbox-on-mac.png) 
+![Mac OSX 10.9.1](./images/virtualbox-win7-sandbox-on-mac.png) 
 
 
 # Licensing
