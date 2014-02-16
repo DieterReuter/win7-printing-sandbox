@@ -41,6 +41,11 @@ vagrant box list
 
 # How do use the Windows 7 Sandbox
 
+Please make sure, that you already have the `vagrant-windows` plugin installed.
+```bash
+vagrant plugin install vagrant-windows
+```
+
 To get started, you only have to use `vagrant up`, and you're in the game.
 ```bash
 cd win7-printing-sandbox

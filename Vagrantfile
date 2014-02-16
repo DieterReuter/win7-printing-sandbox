@@ -8,6 +8,16 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.network :forwarded_port, :host => 5515, :guest => 515
   config.vm.network :forwarded_port, :host => 9100, :guest => 9100
 
+  # Important for using Windows guests
+  config.vm.guest = :windows
+
+  # Port forward WinRM and RDP
+  config.vm.network :forwarded_port, guest: 3389, host: 3389
+  config.vm.network :forwarded_port, guest: 5985, host: 5985, id: "winrm", auto_correct: true
+
+  # Ensure that all networks are set to private
+  config.windows.set_work_network = true
+
   config.vm.define :"win7-printing-sandbox" do |box|
     config.vm.provider :virtualbox do |vb|
       vb.gui = true
