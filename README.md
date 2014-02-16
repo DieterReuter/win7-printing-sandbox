@@ -18,6 +18,12 @@ cd win7-printing-sandbox
 ./build-basebox.sh
 ```
 
+Tipp:
+Packer uses a local cache directory `./packer_cache` to store the downloaded .ISO files. If you like to use a global packer_cache directory instead, just define an environment variable `PACKER_CACHE_DIR` before running the `./build-basebox.sh`script.
+```bash
+PACKER_CACHE_DIR=/tmp/packer_cache ./build-basebox.sh
+```
+
 ### Step 2: register the basebox to Vagrant
 
 You should have the Windows 7 basebox ready and registered as `win7-box` to your Vagrant environment.
