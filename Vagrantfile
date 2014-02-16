@@ -16,7 +16,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.network :forwarded_port, guest: 5985, host: 5985, id: "winrm", auto_correct: true
 
   # Ensure that all networks are set to private
-  config.windows.set_work_network = true
+  #config.windows.set_work_network = true
 
   config.vm.define :"win7-printing-sandbox" do |box|
     config.vm.provider :virtualbox do |vb|
