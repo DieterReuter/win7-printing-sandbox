@@ -4,7 +4,10 @@
       "disk_size": 40960,
       "floppy_files": [
         "floppy/Autounattend.xml",
+        "floppy/oracle-cert.cer",
         "floppy/set-power-config.bat",
+        "floppy/install-winrm.bat",
+        "floppy/fixnetwork.ps1",
         "floppy/install-cygwin-sshd.bat"
       ],
       "guest_os_type": "windows7-64",
@@ -32,6 +35,7 @@
         "floppy/oracle-cert.cer",
         "floppy/set-power-config.bat",
         "floppy/install-winrm.bat",
+        "floppy/fixnetwork.ps1",
         "floppy/install-cygwin-sshd.bat"
       ],
       "guest_additions_path": "/cygdrive/c/Users/vagrant/VBoxGuestAdditions.iso",
