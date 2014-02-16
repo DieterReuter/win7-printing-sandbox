@@ -18,7 +18,7 @@
       "tools_upload_flavor": "windows",
       "tools_upload_path": "/cygdrive/c/Users/vagrant/{{.Flavor}}.iso",
       "type": "vmware-iso",
-      "vm_name": "dieter-win7x64sp1",
+      "vm_name": "windows7x64sp1",
       "vmx_data": {
         "cpuid.coresPerSocket": "1",
         "memsize": "768",
@@ -58,13 +58,13 @@
           "1"
         ]
       ],
-      "vm_name": "dieter-win7x64sp1"
+      "vm_name": "windows7x64sp1"
     }
   ],
   "post-processors": [
     {
       "keep_input_artifact": false,
-      "output": "../../{{.Provider}}/dieter-win7x64sp1.box",
+      "output": "../../{{.Provider}}/windows7x64sp1.box",
       "type": "vagrant"
     }
   ],

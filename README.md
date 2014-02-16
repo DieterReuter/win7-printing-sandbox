@@ -28,7 +28,7 @@ PACKER_CACHE_DIR=/tmp/packer_cache ./build-basebox.sh
 
 You should have the Windows 7 basebox ready and registered as `win7-box` to your Vagrant environment.
 ```bash
-vagrant box add win7-box virtualbox/dieter-win7x64sp1.box
+vagrant box add win7-box virtualbox/windows7x64sp1.box
 ```
 
 You can verify what baseboxes are registered in your Vagrant environment with the following command.
