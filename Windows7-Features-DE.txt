@@ -1,0 +1,336 @@
+
+Tool zur Abbildverwaltung fÅr die Bereitstellung
+Version: 6.1.7600.16385
+
+Abbildversion: 6.1.7600.16385
+
+Funktionsauflistung fÅr das Paket : Microsoft-Windows-Foundation-Package~31bf3856ad364e35~amd64~~6.1.7601.17514
+
+Funktionsname : OEMHelpCustomization
+Status : Deaktiviert
+
+Funktionsname : CorporationHelpCustomization
+Status : Deaktiviert
+
+Funktionsname : SimpleTCP
+Status : Aktiviert
+
+Funktionsname : SNMP
+Status : Deaktiviert
+
+Funktionsname : WMISnmpProvider
+Status : Deaktiviert
+
+Funktionsname : TelnetServer
+Status : Deaktiviert
+
+Funktionsname : TelnetClient
+Status : Aktiviert
+
+Funktionsname : WindowsGadgetPlatform
+Status : Aktiviert
+
+Funktionsname : InboxGames
+Status : Deaktiviert
+
+Funktionsname : More Games
+Status : Deaktiviert
+
+Funktionsname : Solitaire
+Status : Deaktiviert
+
+Funktionsname : SpiderSolitaire
+Status : Deaktiviert
+
+Funktionsname : Hearts
+Status : Deaktiviert
+
+Funktionsname : FreeCell
+Status : Deaktiviert
+
+Funktionsname : Minesweeper
+Status : Deaktiviert
+
+Funktionsname : PurblePlace
+Status : Deaktiviert
+
+Funktionsname : Chess
+Status : Deaktiviert
+
+Funktionsname : Shanghai
+Status : Deaktiviert
+
+Funktionsname : Internet Games
+Status : Deaktiviert
+
+Funktionsname : Internet Checkers
+Status : Deaktiviert
+
+Funktionsname : Internet Backgammon
+Status : Deaktiviert
+
+Funktionsname : Internet Spades
+Status : Deaktiviert
+
+Funktionsname : IIS-WebServerRole
+Status : Deaktiviert
+
+Funktionsname : IIS-WebServer
+Status : Deaktiviert
+
+Funktionsname : IIS-CommonHttpFeatures
+Status : Deaktiviert
+
+Funktionsname : IIS-HttpErrors
+Status : Deaktiviert
+
+Funktionsname : IIS-HttpRedirect
+Status : Deaktiviert
+
+Funktionsname : IIS-ApplicationDevelopment
+Status : Deaktiviert
+
+Funktionsname : IIS-Security
+Status : Deaktiviert
+
+Funktionsname : IIS-URLAuthorization
+Status : Deaktiviert
+
+Funktionsname : IIS-RequestFiltering
+Status : Deaktiviert
+
+Funktionsname : IIS-NetFxExtensibility
+Status : Deaktiviert
+
+Funktionsname : IIS-HealthAndDiagnostics
+Status : Deaktiviert
+
+Funktionsname : IIS-HttpLogging
+Status : Deaktiviert
+
+Funktionsname : IIS-LoggingLibraries
+Status : Deaktiviert
+
+Funktionsname : IIS-RequestMonitor
+Status : Deaktiviert
+
+Funktionsname : IIS-HttpTracing
+Status : Deaktiviert
+
+Funktionsname : IIS-IPSecurity
+Status : Deaktiviert
+
+Funktionsname : IIS-Performance
+Status : Deaktiviert
+
+Funktionsname : IIS-HttpCompressionDynamic
+Status : Deaktiviert
+
+Funktionsname : IIS-WebServerManagementTools
+Status : Deaktiviert
+
+Funktionsname : IIS-ManagementScriptingTools
+Status : Deaktiviert
+
+Funktionsname : IIS-IIS6ManagementCompatibility
+Status : Deaktiviert
+
+Funktionsname : IIS-Metabase
+Status : Deaktiviert
+
+Funktionsname : WAS-WindowsActivationService
+Status : Aktiviert
+
+Funktionsname : WAS-ProcessModel
+Status : Aktiviert
+
+Funktionsname : WAS-NetFxEnvironment
+Status : Aktiviert
+
+Funktionsname : WAS-ConfigurationAPI
+Status : Aktiviert
+
+Funktionsname : IIS-HostableWebCore
+Status : Deaktiviert
+
+Funktionsname : IIS-ISAPIExtensions
+Status : Deaktiviert
+
+Funktionsname : IIS-ISAPIFilter
+Status : Deaktiviert
+
+Funktionsname : IIS-StaticContent
+Status : Deaktiviert
+
+Funktionsname : IIS-DefaultDocument
+Status : Deaktiviert
+
+Funktionsname : IIS-DirectoryBrowsing
+Status : Deaktiviert
+
+Funktionsname : IIS-WebDAV
+Status : Deaktiviert
+
+Funktionsname : IIS-ASPNET
+Status : Deaktiviert
+
+Funktionsname : IIS-ASP
+Status : Deaktiviert
+
+Funktionsname : IIS-CGI
+Status : Deaktiviert
+
+Funktionsname : IIS-ServerSideIncludes
+Status : Deaktiviert
+
+Funktionsname : IIS-CustomLogging
+Status : Deaktiviert
+
+Funktionsname : IIS-BasicAuthentication
+Status : Deaktiviert
+
+Funktionsname : IIS-HttpCompressionStatic
+Status : Deaktiviert
+
+Funktionsname : IIS-ManagementConsole
+Status : Deaktiviert
+
+Funktionsname : IIS-ManagementService
+Status : Deaktiviert
+
+Funktionsname : IIS-WMICompatibility
+Status : Deaktiviert
+
+Funktionsname : IIS-LegacyScripts
+Status : Deaktiviert
+
+Funktionsname : IIS-LegacySnapIn
+Status : Deaktiviert
+
+Funktionsname : IIS-FTPServer
+Status : Deaktiviert
+
+Funktionsname : IIS-FTPSvc
+Status : Deaktiviert
+
+Funktionsname : IIS-FTPExtensibility
+Status : Deaktiviert
+
+Funktionsname : IIS-WindowsAuthentication
+Status : Deaktiviert
+
+Funktionsname : IIS-DigestAuthentication
+Status : Deaktiviert
+
+Funktionsname : IIS-ClientCertificateMappingAuthentication
+Status : Deaktiviert
+
+Funktionsname : IIS-IISCertificateMappingAuthentication
+Status : Deaktiviert
+
+Funktionsname : IIS-ODBCLogging
+Status : Deaktiviert
+
+Funktionsname : MediaPlayback
+Status : Aktiviert
+
+Funktionsname : WindowsMediaPlayer
+Status : Aktiviert
+
+Funktionsname : MediaCenter
+Status : Aktiviert
+
+Funktionsname : OpticalMediaDisc
+Status : Aktiviert
+
+Funktionsname : NetFx3
+Status : Aktiviert
+
+Funktionsname : WCF-HTTP-Activation
+Status : Deaktiviert
+
+Funktionsname : WCF-NonHTTP-Activation
+Status : Deaktiviert
+
+Funktionsname : RasRip
+Status : Deaktiviert
+
+Funktionsname : MSMQ-Container
+Status : Deaktiviert
+
+Funktionsname : MSMQ-Server
+Status : Deaktiviert
+
+Funktionsname : MSMQ-Triggers
+Status : Deaktiviert
+
+Funktionsname : MSMQ-ADIntegration
+Status : Deaktiviert
+
+Funktionsname : MSMQ-HTTP
+Status : Deaktiviert
+
+Funktionsname : MSMQ-Multicast
+Status : Deaktiviert
+
+Funktionsname : MSMQ-DCOMProxy
+Status : Deaktiviert
+
+Funktionsname : TabletPCOC
+Status : Aktiviert
+
+Funktionsname : ServicesForNFS-ClientOnly
+Status : Deaktiviert
+
+Funktionsname : ClientForNFS-Infrastructure
+Status : Deaktiviert
+
+Funktionsname : NFS-Administration
+Status : Deaktiviert
+
+Funktionsname : SUA
+Status : Deaktiviert
+
+Funktionsname : Printing-Foundation-Features
+Status : Aktiviert
+
+Funktionsname : Printing-Foundation-LPRPortMonitor
+Status : Aktiviert
+
+Funktionsname : Printing-Foundation-LPDPrintService
+Status : Aktiviert
+
+Funktionsname : Printing-Foundation-InternetPrinting-Client
+Status : Aktiviert
+
+Funktionsname : FaxServicesClientPackage
+Status : Aktiviert
+
+Funktionsname : ScanManagementConsole
+Status : Aktiviert
+
+Funktionsname : TFTP
+Status : Aktiviert
+
+Funktionsname : MSRDC-Infrastructure
+Status : Aktiviert
+
+Funktionsname : Printing-XPSServices-Features
+Status : Aktiviert
+
+Funktionsname : Indexing-Service-Package
+Status : Deaktiviert
+
+Funktionsname : Xps-Foundation-Xps-Viewer
+Status : Aktiviert
+
+Funktionsname : TIFFIFilter
+Status : Aktiviert
+
+Funktionsname : SearchEngine-Client-Package
+Status : Aktiviert
+
+Funktionsname : Internet-Explorer-Optional-amd64
+Status : Aktiviert
+
+Der Vorgang wurde erfolgreich beendet.
