@@ -6,3 +6,4 @@ virtualbox
 log
 packer_cache
 output-virtualbox-iso
+testing
