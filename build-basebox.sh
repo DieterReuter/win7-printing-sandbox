@@ -1,7 +1,7 @@
 #!/bin/bash 
 basebox=./template/windows
 flavour=virtualbox
-template=windows7x64sp1
+template=windows7x64
 
 echo "Building basebox: ${basebox} for ${flavour}"
 
