@@ -4,7 +4,7 @@ setlocal
 set pwd=%~dp0
 set basebox=./template/windows
 set flavour=virtualbox
-set template=windows7x64sp1
+set template=windows7x64
 
 echo "Building basebox: %basebox% for %flavour%"
 
